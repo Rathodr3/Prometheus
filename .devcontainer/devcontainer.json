@@ -1,0 +1,9 @@
+{
+  "name": "Prometheus Dev",
+  "build": {
+    "dockerfile": "Dockerfile"
+  },
+  "forwardPorts": [9090],
+  "postCreateCommand": "docker-compose up -d",
+  "features": {}
+}
